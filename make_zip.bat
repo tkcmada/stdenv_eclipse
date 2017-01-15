@@ -1,17 +1,6 @@
 @echo off
 cd %~dp0
-IF "%JAVA_HOME%" == "" (
-  echo Plase set JAVA_HOME
-  pause
-  exit 1
-)
-
-set PATH=%JAVA_HOME%\bin;%PATH%
-
-rem zip -r eclipse.jar eclipse
-
-@rem M option is for ignoring manifest file
-jar cvfM eclipse.jar eclipse
+"%~dp07-zip\7z.exe" a -tzip -v90m eclipse.jar eclipse
 IF ERRORLEVEL 1 (
   echo error occured
   pause
