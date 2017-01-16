@@ -1,0 +1,9 @@
+update.matchExp = providedCapabilities.exists(pc | \
+   pc.namespace == 'org.eclipse.equinox.p2.iu' && ( \
+   pc.name == 'de.yatta.eclipse.launcher.oomph.setup.export.feature.group' || \
+   pc.name == 'de.yatta.eclipse.launcher.client.feature.group' ) && \
+   pc.version ~= range('[0.0.0,$version$)'))
+
+requires.0.namespace = org.eclipse.equinox.p2.iu
+requires.0.name = org.apache.httpcomponents.httpclient
+requires.0.range = [4.3.6,4.4.0)

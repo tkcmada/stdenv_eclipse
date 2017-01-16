@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='${p2.artifact.repo.name}' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1286624234208'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='73'>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.8.v20080511'>
+      <properties size='2'>
+        <property name='artifact.size' value='8451'/>
+        <property name='download.size' value='8451'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future.ext.generate.vo' version='1.0.2'>
+      <properties size='2'>
+        <property name='artifact.size' value='8772'/>
+        <property name='download.size' value='8772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.2.9'>
+      <properties size='2'>
+        <property name='artifact.size' value='7393'/>
+        <property name='download.size' value='7393'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db.ext.jdt' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='53177'/>
+        <property name='download.size' value='53177'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='8440'/>
+        <property name='download.size' value='8440'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.2.0.v20091111'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='8500'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2510559'/>
+        <property name='download.size' value='2510559'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071025'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.6.v20080209'>
+      <properties size='2'>
+        <property name='artifact.size' value='8451'/>
+        <property name='download.size' value='8451'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3'>
+      <properties size='3'>
+        <property name='artifact.size' value='2249605'/>
+        <property name='download.size' value='2249605'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future.ext.generate.vo' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.4.v20071115'>
+      <properties size='2'>
+        <property name='artifact.size' value='8762'/>
+        <property name='download.size' value='8762'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071029'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='2297652'/>
+        <property name='download.size' value='2297652'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.2'>
+      <properties size='2'>
+        <property name='artifact.size' value='8759'/>
+        <property name='download.size' value='8759'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.8.v20080717'>
+      <properties size='3'>
+        <property name='artifact.size' value='1975974'/>
+        <property name='download.size' value='1975974'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.9.v20080914'>
+      <properties size='2'>
+        <property name='artifact.size' value='8452'/>
+        <property name='download.size' value='8452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071029'>
+      <properties size='3'>
+        <property name='artifact.size' value='2239794'/>
+        <property name='download.size' value='2239794'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.8.v20080329'>
+      <properties size='3'>
+        <property name='artifact.size' value='1937350'/>
+        <property name='download.size' value='1937350'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071023'>
+      <properties size='3'>
+        <property name='artifact.size' value='2250827'/>
+        <property name='download.size' value='2250827'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='7392'/>
+        <property name='download.size' value='7392'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.2.1.v20100421'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='8500'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.2.2.v20101009'>
+      <properties size='2'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='1879572'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.5.v20071218'>
+      <properties size='3'>
+        <property name='artifact.size' value='2523237'/>
+        <property name='download.size' value='2523237'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.8.v20080511'>
+      <properties size='3'>
+        <property name='artifact.size' value='1975255'/>
+        <property name='download.size' value='1975255'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071101'>
+      <properties size='2'>
+        <property name='artifact.size' value='8772'/>
+        <property name='download.size' value='8772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db.ext.jdt' version='1.0.4.20090108'>
+      <properties size='3'>
+        <property name='artifact.size' value='36004'/>
+        <property name='download.size' value='36004'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.8.v20080329'>
+      <properties size='2'>
+        <property name='artifact.size' value='8451'/>
+        <property name='download.size' value='8451'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.2.8'>
+      <properties size='2'>
+        <property name='artifact.size' value='7387'/>
+        <property name='download.size' value='7387'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db.ext.jdt' version='1.0.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='54069'/>
+        <property name='download.size' value='54069'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.2.8'>
+      <properties size='3'>
+        <property name='artifact.size' value='2300258'/>
+        <property name='download.size' value='2300258'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='2216908'/>
+        <property name='download.size' value='2216908'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.2.1.v20100421'>
+      <properties size='2'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='1875986'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071025'>
+      <properties size='3'>
+        <property name='artifact.size' value='2255462'/>
+        <property name='download.size' value='2255462'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db.ext.jdt' version='1.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='53488'/>
+        <property name='download.size' value='53488'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.2.2.v20101009'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='8498'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2326913'/>
+        <property name='download.size' value='2326913'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.2.6'>
+      <properties size='2'>
+        <property name='artifact.size' value='7375'/>
+        <property name='download.size' value='7375'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.2.0.v20091112'>
+      <properties size='2'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='1860247'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.2.6'>
+      <properties size='3'>
+        <property name='artifact.size' value='2181613'/>
+        <property name='download.size' value='2181613'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.5.v20071225'>
+      <properties size='2'>
+        <property name='artifact.size' value='8452'/>
+        <property name='download.size' value='8452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.6.v20080209'>
+      <properties size='3'>
+        <property name='artifact.size' value='2257733'/>
+        <property name='download.size' value='2257733'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.1.0.v20090121'>
+      <properties size='2'>
+        <property name='artifact.size' value='8761'/>
+        <property name='download.size' value='8761'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.9.v20080924'>
+      <properties size='3'>
+        <property name='artifact.size' value='2882401'/>
+        <property name='download.size' value='2882401'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.2.7'>
+      <properties size='2'>
+        <property name='artifact.size' value='7375'/>
+        <property name='download.size' value='7375'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071030'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db.ext.jdt' version='1.0.3'>
+      <properties size='3'>
+        <property name='artifact.size' value='33539'/>
+        <property name='download.size' value='33539'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071109'>
+      <properties size='3'>
+        <property name='artifact.size' value='2015466'/>
+        <property name='download.size' value='2015466'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.7.v20080318'>
+      <properties size='3'>
+        <property name='artifact.size' value='2617430'/>
+        <property name='download.size' value='2617430'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.2.9'>
+      <properties size='3'>
+        <property name='artifact.size' value='2322634'/>
+        <property name='download.size' value='2322634'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071030'>
+      <properties size='3'>
+        <property name='artifact.size' value='2241054'/>
+        <property name='download.size' value='2241054'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.1.0.v20090121'>
+      <properties size='3'>
+        <property name='artifact.size' value='1886797'/>
+        <property name='download.size' value='1886797'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.2.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='2129593'/>
+        <property name='download.size' value='2129593'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.4.v20071115'>
+      <properties size='3'>
+        <property name='artifact.size' value='2032013'/>
+        <property name='download.size' value='2032013'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.8.v20080717'>
+      <properties size='2'>
+        <property name='artifact.size' value='8761'/>
+        <property name='download.size' value='8761'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3'>
+      <properties size='2'>
+        <property name='artifact.size' value='8763'/>
+        <property name='download.size' value='8763'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='8449'/>
+        <property name='download.size' value='8449'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future.ext.generate.vo' version='1.0.3'>
+      <properties size='2'>
+        <property name='artifact.size' value='8795'/>
+        <property name='download.size' value='8795'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future.ext.generate.vo' version='1.0.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='0.2.7'>
+      <properties size='3'>
+        <property name='artifact.size' value='2252030'/>
+        <property name='download.size' value='2252030'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.5.v20071218'>
+      <properties size='2'>
+        <property name='artifact.size' value='8452'/>
+        <property name='download.size' value='8452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071023'>
+      <properties size='2'>
+        <property name='artifact.size' value='8772'/>
+        <property name='download.size' value='8772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071101'>
+      <properties size='3'>
+        <property name='artifact.size' value='2245381'/>
+        <property name='download.size' value='2245381'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.9.v20080914'>
+      <properties size='3'>
+        <property name='artifact.size' value='2882367'/>
+        <property name='download.size' value='2882367'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071028'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.2.0.v20091112'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='8499'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.9.v20080924'>
+      <properties size='2'>
+        <property name='artifact.size' value='8452'/>
+        <property name='download.size' value='8452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.7.v20080318'>
+      <properties size='2'>
+        <property name='artifact.size' value='8452'/>
+        <property name='download.size' value='8452'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.3.v20071028'>
+      <properties size='3'>
+        <property name='artifact.size' value='2239350'/>
+        <property name='download.size' value='2239350'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.2.0.v20091114'>
+      <properties size='2'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='1860247'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='1.0.3.v20071109'>
+      <properties size='2'>
+        <property name='artifact.size' value='8773'/>
+        <property name='download.size' value='8773'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='zigen.plugin.db' version='1.0.5.v20071225'>
+      <properties size='3'>
+        <property name='artifact.size' value='2269683'/>
+        <property name='download.size' value='2269683'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='zigen.plugin.future' version='0.2.5'>
+      <properties size='2'>
+        <property name='artifact.size' value='7376'/>
+        <property name='download.size' value='7376'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
