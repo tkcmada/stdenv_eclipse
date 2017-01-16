@@ -16,11 +16,19 @@ Base Eclipse
 ------------
 + eclipse-rcp-mars-2-win32-x86_64
 
-Installed plugins
------------------
-+ ...
+Installed plugins from Eclipse Market place
+-------------------------------------------
++ Yatta ( automation Eclipse setup )
++ DBViewer
++ SWTBot(already builtin)
+
 
 Install pending plugins
 -----------------------
-+ ...
++ Eclipse XWT(not found)
++ swt designer(not found)
++ e(fx)clipse
++ nebula stable widgets
++ nebula incubation widgets
++ Rinzo XML Editor
 
