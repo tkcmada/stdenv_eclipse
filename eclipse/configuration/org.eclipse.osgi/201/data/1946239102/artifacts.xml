@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://www.soyatec.com/update/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1484655713468'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='2735171215'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='22'>
+    <artifact classifier='osgi.bundle' id='com.soyatec.edepend.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.edepend.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.edepend' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.edepend_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.euml2.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.database.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.database.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.eemf' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.eemf_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.euml2' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.euml2_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.model' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.model_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2.studio' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.euml2.studio_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.euml2_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.core' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.core_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.edepend' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.edepend_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.project' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.project_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.eDepend.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.edepend.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.project.diagram' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.project.diagram_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.database' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.database_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.diagrams' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.diagrams_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.additional' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.additional_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.soyatec.database.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/features/com.soyatec.database.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.database' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.database_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.soyatec.tools.modeling' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/org.soyatec.tools.modeling_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.euml2.doc' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.euml2.doc_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.soyatec.eemf' version='3.7.1.20110624'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.soyatec.com/update/plugins/com.soyatec.eemf_3.7.1.20110624.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -5,7 +5,6 @@ ar.com.tadp.xml.rinzo.jdt,1.4.1,plugins/ar.com.tadp.xml.rinzo.jdt_1.4.1.jar,4,fa
 ch.qos.logback.classic,1.0.7.v20121108-1250,plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.core,1.0.7.v20121108-1250,plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.slf4j,1.0.7.v201505121915,plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar,4,false
-com.btr.proxy,1.0.0.201612251824,plugins/com.btr.proxy_1.0.0.201612251824.jar,4,false
 com.google.gerrit.common,2.1.5.v201112241444,plugins/com.google.gerrit.common_2.1.5.v201112241444.jar,4,false
 com.google.gerrit.prettify,2.1.5.v201112241444,plugins/com.google.gerrit.prettify_2.1.5.v201112241444.jar,4,false
 com.google.gerrit.reviewdb,2.1.5.v201112241444,plugins/com.google.gerrit.reviewdb_2.1.5.v201112241444.jar,4,false
@@ -22,14 +21,6 @@ com.gradleware.tooling.utils,0.8.1.v201512100932,plugins/com.gradleware.tooling.
 com.ibm.icu,54.1.1.v201501272100,plugins/com.ibm.icu_54.1.1.v201501272100.jar,4,false
 com.jcraft.jsch,0.1.53.v201508180515,plugins/com.jcraft.jsch_0.1.53.v201508180515.jar,4,false
 com.sun.el,2.2.0.v201303151357,plugins/com.sun.el_2.2.0.v201303151357.jar,4,false
-de.yatta.eclipse.launcher.client,1.3.3.201701102034,plugins/de.yatta.eclipse.launcher.client_1.3.3.201701102034.jar,4,false
-de.yatta.eclipse.launcher.core,1.3.3.201701121036,plugins/de.yatta.eclipse.launcher.core_1.3.3.201701121036.jar,4,false
-de.yatta.eclipse.launcher.oomph.core,1.3.3.201701101359,plugins/de.yatta.eclipse.launcher.oomph.core_1.3.3.201701101359.jar,4,false
-de.yatta.eclipse.launcher.oomph.setup.builders,1.3.3.201612251824,plugins/de.yatta.eclipse.launcher.oomph.setup.builders_1.3.3.201612251824.jar,4,false
-de.yatta.eclipse.launcher.oomph.setup.builders.core,1.3.3.201701101359,plugins/de.yatta.eclipse.launcher.oomph.setup.builders.core_1.3.3.201701101359.jar,4,false
-de.yatta.eclipse.launcher.oomph.tasks,1.3.3.201612281717,plugins/de.yatta.eclipse.launcher.oomph.tasks_1.3.3.201612281717.jar,4,false
-de.yatta.eclipse.launcher.oomph.tasks.edit,1.3.3.201612251824,plugins/de.yatta.eclipse.launcher.oomph.tasks.edit_1.3.3.201612251824.jar,4,false
-de.yatta.eclipse.launcher.utils,1.3.3.201612251824,plugins/de.yatta.eclipse.launcher.utils_1.3.3.201612251824.jar,4,false
 javaewah,0.7.9.v201401101600,plugins/javaewah_0.7.9.v201401101600.jar,4,false
 javax.annotation,1.2.0.v201401042248,plugins/javax.annotation_1.2.0.v201401042248.jar,4,false
 javax.el,2.2.0.v201303151357,plugins/javax.el_2.2.0.v201303151357.jar,4,false
@@ -483,18 +474,11 @@ org.eclipse.oomph.setup.edit,1.6.0.v20161125-0947,plugins/org.eclipse.oomph.setu
 org.eclipse.oomph.setup.editor,1.6.0.v20161125-1207,plugins/org.eclipse.oomph.setup.editor_1.6.0.v20161125-1207.jar,4,false
 org.eclipse.oomph.setup.p2,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.p2_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.setup.p2.edit,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.p2.edit_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.projects,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.projects_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.projects.edit,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.projects.edit_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.projectset,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.projectset_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.projectset.edit,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.projectset.edit_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.setup.sync,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.sync_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.setup.ui,1.6.0.v20161128-0851,plugins/org.eclipse.oomph.setup.ui_1.6.0.v20161128-0851.jar,4,false
 org.eclipse.oomph.setup.ui.questionnaire,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.ui.questionnaire_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.workingsets,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.workingsets_1.6.0.v20161019-0656.jar,4,false
-org.eclipse.oomph.setup.workingsets.edit,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.setup.workingsets.edit_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.ui,1.6.0.v20161111-1110,plugins/org.eclipse.oomph.ui_1.6.0.v20161111-1110.jar,4,false
 org.eclipse.oomph.util,1.6.0.v20161125-0947,plugins/org.eclipse.oomph.util_1.6.0.v20161125-0947.jar,4,false
-org.eclipse.oomph.util.doc,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.util.doc_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.workingsets,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.workingsets_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.workingsets.edit,1.6.0.v20161019-0656,plugins/org.eclipse.oomph.workingsets.edit_1.6.0.v20161019-0656.jar,4,false
 org.eclipse.oomph.workingsets.editor,1.6.0.v20161111-1110,plugins/org.eclipse.oomph.workingsets.editor_1.6.0.v20161111-1110.jar,4,false
@@ -720,4 +704,5 @@ org.w3c.css.sac,1.3.1.v200903091627,plugins/org.w3c.css.sac_1.3.1.v200903091627.
 org.w3c.dom.events,3.0.0.draft20060413_v201105210656,plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar,4,false
 org.w3c.dom.smil,1.0.1.v200903091627,plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar,4,false
 org.w3c.dom.svg,1.1.0.v201011041433,plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,4,false
+sf.eclipse.javacc,1.5.33,plugins/sf.eclipse.javacc_1.5.33/,4,false
 zigen.plugin.db,1.2.2.v20101009,plugins/zigen.plugin.db_1.2.2.v20101009.jar,4,false

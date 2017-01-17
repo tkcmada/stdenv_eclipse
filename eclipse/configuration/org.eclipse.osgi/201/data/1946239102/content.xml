@@ -1,0 +1,955 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://www.soyatec.com/update/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1484655542024'/>
+    <property name='site.checksum' value='2735171215'/>
+  </properties>
+  <references size='2'>
+    <repository uri='http://www.soyatec.com/update/galileo' url='http://www.soyatec.com/update/galileo' type='0' options='0'/>
+    <repository uri='http://www.soyatec.com/update/galileo' url='http://www.soyatec.com/update/galileo' type='1' options='0'/>
+  </references>
+  <units size='31'>
+    <unit id='http://www.soyatec.com/update/site.xml.eUML2 Studio Edition' version='1.0.0.7l8k7EcL0BvE8-UkkVz0-T'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Studio Edition'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://www.soyatec.com/update/site.xml.eUML2 Studio Edition' version='1.0.0.7l8k7EcL0BvE8-UkkVz0-T'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.studio.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eDepend.doc.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.soyatec.euml2.studio.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.euml2.studio.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Studio Edition'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.studio.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.feature.group' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.studio.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.edepend.doc' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.edepend.doc' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.doc' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.edepend.doc' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.edepend.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.edepend.doc&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.database.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseDatabase Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.database' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.database' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.eDepend.doc.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eDepend Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eDepend.doc.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.eDepend.doc' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.eDepend.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.project' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.project' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.project' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.project' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.project' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.project&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.project.diagram' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.project.diagram' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.project.diagram' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.project.diagram' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.project.diagram' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.project.diagram&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.database.doc.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.database.doc.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseDatabase Modeler Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='[3.3.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.edepend.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eDepend'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.edepend' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.edepend' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.database' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.database' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.database' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.database' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.database&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.eemf' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.eemf' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.eemf' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.eemf' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.eemf&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.core' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.core' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.core' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.core' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.core' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.core&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.database.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.database.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseDatabase Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.feature.group' range='[2.2.0.v200606271057,3.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.feature.group' range='[3.2.0.v20060626,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='[3.2.0.v20060609m------6zXJJzJzJq,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[3.2.0.v20060609m-AgOexn6hlEUsvBO,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='[3.2.0.v20060609m-F7snq1fxia-Z4XP,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[3.0.0.v200906011111,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.model' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.diagrams' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.core' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.additional' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.euml2.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.euml2' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.database.doc.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseDatabase Modeler Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.database.doc' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.database.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.eemf.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.eemf.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eEMF Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.feature.group' range='[2.3.0.v200706262000,3.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.feature.group' range='[3.3.0.v20070620,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='[3.3.0.v20070607-7N7M-DUUEF6Ez0FD6JXCD,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[3.3.0.v20070608-_19UEkLF-XsdF9jJrkPi,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='[3.3.0.v20070606-0010-7o7jCHEFpPoqOYuobpfkaR,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[3.0.0.v200906011111,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gmf.feature.group' range='[1.0.0.v20060713-1700,2.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.model' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.diagrams' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.core' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.additional' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.soyatec.tools.modeling' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.eemf.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eEMF Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eemf.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.eemf' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.eemf' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.diagrams' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.diagrams' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.diagrams' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.diagrams' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.diagrams' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.diagrams&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.euml2' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.euml2' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.euml2' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.euml2' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.euml2&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.euml2.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.euml2.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Modeler'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.feature.group' range='[2.3.0.v200706262000,3.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.feature.group' range='[3.3.0.v20070620,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='[3.3.0.v20070607-7N7M-DUUEF6Ez0FD6JXCD,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[3.3.0.v20070608-_19UEkLF-XsdF9jJrkPi,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='[3.3.0.v20070606-0010-7o7jCHEFpPoqOYuobpfkaR,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[3.0.0.v200906011111,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.model' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.diagrams' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.core' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.additional' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.database.doc' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.database.doc' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.database.doc' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.database.doc' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.database.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.database.doc&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.edepend.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.edepend.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eDepend'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='15'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.feature.group' range='[2.3.0.v200706262000,3.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.feature.group' range='[3.3.0.v20070620,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='[3.3.0.v20070607-7N7M-DUUEF6Ez0FD6JXCD,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[3.3.0.v20070608-_19UEkLF-XsdF9jJrkPi,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='[3.3.0.v20070606-0010-7o7jCHEFpPoqOYuobpfkaR,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[3.0.0.v200906011111,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gmf.feature.group' range='[1.0.0.v20060713-1700,2.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.model' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.diagrams' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.core' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.additional' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.project' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.project.diagram' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.model' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.model' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.model' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.model' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.model' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.model&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.euml2.doc' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.euml2.doc' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.euml2.doc' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.euml2.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.euml2.doc&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.euml2.doc.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.euml2.doc.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Modeler Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='[3.3.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='org.soyatec.tools.modeling' version='3.7.1.20110624' singleton='false'>
+      <update id='org.soyatec.tools.modeling' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.soyatec.tools.modeling' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='org.soyatec.tools.modeling' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.soyatec.tools.modeling' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.soyatec.tools.modeling&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.eDepend.doc.feature.group' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.eDepend.doc.feature.group' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='eDepend Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eDepend.doc.feature.group' version='3.7.1.20110624'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='[3.3.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend.doc' range='[3.7.1.20110624,3.7.1.20110624]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.eDepend.doc.feature.jar' range='[3.7.1.20110624,3.7.1.20110624]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.euml2.studio.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Studio Edition'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.studio.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.euml2.studio' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2.studio' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+    <unit id='com.soyatec.edepend' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.edepend' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.edepend' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.edepend' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.edepend' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.edepend&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.additional' version='3.7.1.20110624' singleton='false'>
+      <update id='com.soyatec.additional' range='[0.0.0,3.7.1.20110624)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.additional' version='3.7.1.20110624'/>
+        <provided namespace='osgi.bundle' name='com.soyatec.additional' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.soyatec.additional' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.soyatec.additional&#xA;Bundle-Version: 3.7.1.20110624&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.soyatec.euml2.doc.feature.jar' version='3.7.1.20110624'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='eUML2 Modeler Documentation'/>
+        <property name='org.eclipse.equinox.p2.description' value='eUML2 Studio Edition Plugin for Eclipse is a plugin for UML modeling in Eclipse&#xA;3.5. It can be used both for creating new models and for existing&#xA;models through the powerful reverse engineering.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.soyatec.com/euml2/features/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Soyatec ©'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.soyatec.euml2.doc.feature.jar' version='3.7.1.20110624'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.soyatec.euml2.doc' version='3.7.1.20110624'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.soyatec.euml2.doc' version='3.7.1.20110624'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.soyatec.com/euml2/product/license' url='http://www.soyatec.com/euml2/product/license'>
+          THE SOFTWARE IS PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.SOYATEC&#xA;HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO&#xA;THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT.&#xA;IN NO EVENT SHALL B BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF THE SOFTWARE. SOYATEC AND/OR ITS SUPPLIERS MAKE&#xA;NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED&#xA;IN THE DOCUMENTS FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED&#xA;GRAPHICS ARE PROVIDED &quot; AS IS &quot;, WITHOUT WARRANTY OF ANY KIND.&#xA;SOYATEC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND&#xA;CONDITIONS OF WITH REGARD TO THIS INFORMATION, INCLUDING ALL&#xA;IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS&#xA;FOR A PARTICULAR PURPOSE, TITLE AND NON INFRINGEMENT. IN NO EVENT&#xA;SHALL SOYATEC BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL&#xA;DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,&#xA;DATA OR PROFIT ARISING OUT OF OR IN CONNECTION WITH THE USE OR&#xA;PERFORMANCE OF INFORMATION AVAILABLE ON THIS.&#xA;***&#xA;The documents and related graphics published could include technical&#xA;inaccuracies or typographical errors. Changes are periodically&#xA;added to the information herein. SOYATEC and/or its suppliers&#xA;may make improvements and/or changes in the products and/or the&#xA;programs described herein at any time.&#xA;Permission to use the documents contained herein, such as press&#xA;releases, data sheets, white papers, is granted provided that&#xA;(i) the below copyright notice appears on any and all copies,&#xA;(ii) that use of such documents is for informational and commercial&#xA;or personal purposes only, and no changes to any such document&#xA;are made. You are not allowed to use or copy the design or layout&#xA;of this SOYATEC, logos, graphics, sounds or images, except as&#xA;expressly authorized by SOYATEC. Please contact SOYATEC legal&#xA;department with questions or problems with this service: &#xA;legal@soyatec.com
+        </license>
+      </licenses>
+      <copyright uri='http://www.soyatec.com/euml2/product/copyright' url='http://www.soyatec.com/euml2/product/copyright'>
+        Any software and documentation (&quot;the Software&quot;) is the copyrighted&#xA;work of SOYATEC. All plugins prefixed by &quot;com.soyatec.&quot; are considered&#xA;to be a non-free program and copyrighed by Soyatec. Some open&#xA;source products used inside SOYATEC software solution may be&#xA;repackaged as plugin in Eclipse environment. These products are&#xA;prefixed by &quot;org.soyatec.&quot;. They are used in accordance with&#xA;the corresponding license.&#xA;The non-free program may not be resold, duplicated or used inside&#xA;(as part of) other software for commercial purposes. The software&#xA;may be used for any purposes and also for developing other commercial&#xA;software except an UML modelling solution. Unauthorized use may&#xA;subject you and your company to severe civil and criminal penalties.
+      </copyright>
+    </unit>
+  </units>
+</repository>
