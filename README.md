@@ -18,17 +18,17 @@ Base Eclipse
 
 Installed plugins from Eclipse Market place
 -------------------------------------------
-+ Yatta ( automation Eclipse setup )
 + DBViewer
 + SWTBot(already builtin)
-
++ e(fx)clipse
++ nebula stable widgets
++ nebula incubation widgets
++ Rinzo XML Editor
++ XMLEspresso
++ JavaCC Eclipse Plug-in
++ 
 
 Install pending plugins
 -----------------------
 + Eclipse XWT(not found)
 + swt designer(not found)
-+ e(fx)clipse
-+ nebula stable widgets
-+ nebula incubation widgets
-+ Rinzo XML Editor
-
