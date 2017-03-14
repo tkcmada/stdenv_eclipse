@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.xwt.workbench.feature"
+      label="%featureName"
+      version="1.1.0.v20150608-1518"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="XWT Workbench Integration Update Site" url="http://www.eclipse.org/downloads/download.php?format=xml&amp;file=/xwt/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.xwt.feature" version="1.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xwt.ui.workbench"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20150608-1518"
+         unpack="false"/>
+
+</feature>

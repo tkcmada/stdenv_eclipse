@@ -14,7 +14,7 @@ How to decompress eclipse.jar.xxx files
 
 Base Eclipse
 ------------
-+ eclipse-rcp-mars-2-win32-x86_64
++ eclipse-rcp-mars-2-win32-x86_64 ( Eclipse for RCP and RAP Developers Version: Mars.2 Release (4.5.2) Build id: 20160218-0600 )
 
 Installed plugins from Eclipse Market place
 -------------------------------------------
@@ -26,7 +26,6 @@ Installed plugins from Eclipse Market place
 + Rinzo XML Editor
 + XMLEspresso
 + JavaCC Eclipse Plug-in
-+ 
 
 Install pending plugins
 -----------------------
